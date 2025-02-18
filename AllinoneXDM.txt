@@ -1,0 +1,173 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "XDM 4.0 All In One",
+         Animation = "Cày Chay Đi Hack Cc:)"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=103285543100911",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Graphics"})
+     local Tab3o = MakeTab({Name = "Script (Có Key)"})
+     local Tab4o = MakeTab({Name = "Script PC"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Astral V1",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Fix Lag Delete 100%",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Fixlag-delete100%25trash-Teddy"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Xero Hub",
+    Callback = function()
+	  getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "W-Azure",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "HoHo Hub V4",
+    Callback = function()
+	  _G.HohoVersion = "v4"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "Kncrypt Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "BlackStrap Hub",
+    Callback = function()
+	  loadstring(game:HttpGet('https://lua-library.btteam.net/script-auth.txt'))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Mukuro V2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://auth.quartyz.com/scripts/Loader.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Thunder Z Hub",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Zis Rbx Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/giaotrinhhoc/ZisRb/refs/heads/main/ZisRbV5"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Speed Hub X",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Fix Lag Turbo",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Teddy Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Angry Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/angry5/ec20347a74aa4e46c71b15b6093eeaf5/raw/Angery.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Tboy Rbx Hub",
+    Callback = function()
+	  loadstring(game:HttpGet(("http://moookiegwug.publicvm.com/Test/uploads/Scriptmade/c367f5a2af154b0aa7565c33463559f3.txt")))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Quantumn Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Rubu V2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv2"))()
+  end
+  })

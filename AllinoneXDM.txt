@@ -97,7 +97,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab3o, {
      Name = "BlackStrap Hub",
     Callback = function()
 	  loadstring(game:HttpGet('https://lua-library.btteam.net/script-auth.txt'))()
@@ -111,7 +111,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab3o, {
      Name = "Thunder Z Hub",
     Callback = function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()

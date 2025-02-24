@@ -34,6 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Graphics"})
      local Tab3o = MakeTab({Name = "Script (Có Key)"})
      local Tab4o = MakeTab({Name = "Script PC"})
+     local Tab5o = MakeTab({Name = "Hop Server"})
      
 ------- BUTTON
     
@@ -169,5 +170,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
      Name = "Rubu V2",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv2"))()
+  end
+  })
+
+   AddButton(Tab5o, {
+     Name = "Vxeze",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
   end
   })

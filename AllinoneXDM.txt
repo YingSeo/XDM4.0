@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "XDM 4.0 - All In One",
-         Animation = "Cày Chay Đi Hack Cc:)"
+         Animation = "Đmm Cày Chay Đi:)"
          },
         Key = {
         KeySystem = false,
@@ -30,13 +30,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab1o = MakeTab({Name = "Tab Farm"})
      local Tab2o = MakeTab({Name = "Graphics"})
-     local Tab3o = MakeTab({Name = "Script Farm (Có Key)"})
+     local Tab3o = MakeTab({Name = "Tab Farm Key"})
      local Tab4o = MakeTab({Name = "Script PC"})
-     local Tab5o = MakeTab({Name = "Hop Server"})
-     local Tab6o = MakeTab({Name = "Aimbot (Key)"})
-     local Tab7o = MakeTab({Name = "V4"})
+     local Tab5o = MakeTab({Name = "Tab Servers"})
+     local Tab6o = MakeTab({Name = "Aimbot Key"})
+     local Tab7o = MakeTab({Name = "Tab V4"})
      
 ------- BUTTON
     
@@ -60,7 +60,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   })
   
   AddButton(Tab2o, {
-     Name = "Fix Lag Delete 100%",
+     Name = "Fix Lag Deleted 100%",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Fixlag-delete100%25trash-Teddy"))()
   end
@@ -162,7 +162,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
   
   AddButton(Tab1o, {
-     Name = "Quantumn Hub",
+     Name = "Quantum Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
   end
@@ -176,14 +176,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
 
    AddButton(Tab5o, {
-     Name = "Vxeze",
+     Name = "Vxeze Hop",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
   end
   })
 
     AddButton(Tab6o, {
-     Name = "ThunderZ",
+     Name = "ThunderZ Aim",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
   end

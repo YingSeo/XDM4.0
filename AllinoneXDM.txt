@@ -211,6 +211,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
 
    AddButton(Tab5o, {
+     Name = "Hop True Triple Katana",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
+  end
+  })
+
+   AddButton(Tab5o, {
      Name = "Teddy Hop",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()

@@ -203,7 +203,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   end
   })
 
-   AddButton(Tab7o, {
+   AddButton(Tab1o, {
      Name = "Tsuo Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()

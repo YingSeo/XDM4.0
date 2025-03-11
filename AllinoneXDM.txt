@@ -210,6 +210,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   end
   })
 
+   AddButton(Tab5o, {
+     Name = "Teddy Hop",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
+  end
+  })
+
+
    AddButton(Tab7o, {
      Name = "Teddy Hop",
     Callback = function()

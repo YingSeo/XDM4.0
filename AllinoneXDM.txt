@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "XDM 4.0 - All In One",
-         Animation = "(-:Domain Explansion:-)"
+         Animation = "(Domain Explansion)"
          },
         Key = {
         KeySystem = false,

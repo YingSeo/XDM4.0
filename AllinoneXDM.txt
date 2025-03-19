@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "XDM 4.0 - All In One",
-         Animation = "(Hack Đầu Puồi)"
+         Animation = "(Domain Exploition)"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=103285543100911",
+       Image = "http://www.roblox.com/asset/?id=83190276951914",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,12 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Tab Farm"})
+     local Tab1o = MakeTab({Name = "Tab Farms"})
      local Tab2o = MakeTab({Name = "Graphics"})
      local Tab3o = MakeTab({Name = "Tab Farm Key"})
-     local Tab4o = MakeTab({Name = "Script PC"})
+     local Tab4o = MakeTab({Name = "Tab PC"})
      local Tab5o = MakeTab({Name = "Tab Servers"})
-     local Tab6o = MakeTab({Name = "Aimbot Key"})
+     local Tab6o = MakeTab({Name = "Tab Aimbot"})
      local Tab7o = MakeTab({Name = "Tab V4"})
      
 ------- BUTTON
@@ -123,7 +123,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
   
   AddButton(Tab1o, {
-     Name = "Zis Rbx Hub",
+     Name = "Zis Roblox Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/giaotrinhhoc/ZisRb/refs/heads/main/ZisRbV5"))()
   end
@@ -158,7 +158,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
   
   AddButton(Tab1o, {
-     Name = "Tboy Rbx Hub",
+     Name = "Tboy Roblox Hub",
     Callback = function()
 	  loadstring(game:HttpGet(("http://moookiegwug.publicvm.com/Test/uploads/Scriptmade/c367f5a2af154b0aa7565c33463559f3.txt")))()
   end
@@ -179,14 +179,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
 
    AddButton(Tab5o, {
-     Name = "Vxeze Hop",
+     Name = "Vxeze Hop (Down)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
   end
   })
 
     AddButton(Tab6o, {
-     Name = "ThunderZ Aim",
+     Name = "ThunderZ Aim (Key)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
   end
@@ -221,7 +221,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
 
    AddButton(Tab5o, {
-     Name = "Rare Boss Hop",
+     Name = "Rare Boss Hop (Updating)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end
@@ -229,7 +229,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 
 
    AddButton(Tab7o, {
-     Name = "Teddy Hop",
+     Name = "Teddy Hop (Updating)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end

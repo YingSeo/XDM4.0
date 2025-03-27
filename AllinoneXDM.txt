@@ -51,6 +51,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   })
+
+   AddButton(Tab1o, {
+     Name = "Redz Fix",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ShimeKano/redz/refs/heads/main/Source.luau"))()
+  end
+  })
   
   AddButton(Tab1o, {
      Name = "Astral V1",

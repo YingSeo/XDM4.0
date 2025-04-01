@@ -37,6 +37,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab5o = MakeTab({Name = "Tab Servers"})
      local Tab6o = MakeTab({Name = "Tab Aimbot"})
      local Tab7o = MakeTab({Name = "Tab V4"})
+     local Tab8o = MakeTab({Name = "Tab Fake"})
      
 ------- BUTTON
     
@@ -240,6 +241,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end
   })
+
+   AddButton(Tab8o, {
+     Name = "Banana Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })
+
 
 
    AddButton(Tab7o, {

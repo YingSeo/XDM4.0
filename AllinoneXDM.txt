@@ -65,6 +65,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
   })
+
+   AddButton(Tab5o, {
+     Name = "Teddy Freemium Pass(Teddyskibidi)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-FREMIUM"))()
+  end
+  })
   
   AddButton(Tab2o, {
      Name = "Fix Lag Deleted 100%",

@@ -53,7 +53,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   })
 
    AddButton(Tab1o, {
-     Name = "Redz Fix",
+     Name = "Redz Fake",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ShimeKano/redz/refs/heads/main/Source.luau"))()
   end
@@ -67,7 +67,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   })
 
    AddButton(Tab5o, {
-     Name = "Teddy Freemium Pass(Teddyskibidi)",
+     Name = "Teddy Hop Freemium Pass: (Teddyskibidi)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-FREMIUM"))()
   end
@@ -235,7 +235,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
 
    AddButton(Tab5o, {
-     Name = "Rare Boss Hop (Updating)",
+     Name = "Rare Boss Hop (Down)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end
@@ -243,7 +243,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 
 
    AddButton(Tab7o, {
-     Name = "Teddy Hop (Updating)",
+     Name = "Teddy Hop (Down)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end

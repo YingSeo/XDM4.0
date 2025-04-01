@@ -61,9 +61,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   })
   
   AddButton(Tab1o, {
-     Name = "Astral V1",
+     Name = "Astral V2",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
+
+   AddButton(Tab1o, {
+     Name = "Xeter Hub V2",
+    Callback = function()
+	  getgenv().Version = "V2"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+
   end
   })
 

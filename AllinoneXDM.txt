@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "XDM 4.0 -- All In One",
-         Animation = "(-Main Exploition-)"
+         Title = "XDM 4.0 - All In One",
+         Animation = "(Domain Exploition)"
          },
         Key = {
         KeySystem = false,
@@ -49,27 +49,22 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   })
 
+   AddButton(Tab1o, {
+     Name = "Redz Fake",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ShimeKano/redz/refs/heads/main/Source.luau"))()
+  end
+  })
+  
   AddButton(Tab1o, {
      Name = "Astral V2",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
-  })
-
-   AddButton(Tab1o, {
-     Name = "Pado Hub",
-    Callback = function()
-	  loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
-  })
-
-      AddButton(Tab3o, {
-     Name = "Cokka Hub",
-    Callback = function()
-	  loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
   })
 
    AddButton(Tab1o, {
@@ -82,7 +77,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/
   })
 
    AddButton(Tab5o, {
-     Name = "Teddy Hop Freemium Pass: <Teddyskibidi>",
+     Name = "Teddy Hop Freemium Pass: (Teddyskibidi)",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-FREMIUM"))()
   end
@@ -129,26 +124,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua"))()
   end
   })
-
-   AddButton(Tab3o, {
-     Name = "HoHo Hub V3",
-    Callback = function()
-	  _G.HohoVersion = "v3"
-loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() 
-  end
-  })
   
   AddButton(Tab3o, {
      Name = "BlackStrap Hub",
     Callback = function()
 	  loadstring(game:HttpGet('https://lua-library.btteam.net/script-auth.txt'))()
-  end
-  })
-
-   AddButton(Tab1o, {
-     Name = "Spider Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiderScriptRB/Sta1kerH1ck-/refs/heads/main/Dead%20Rails%20SpiderXHub.txt"))()
   end
   })
   
@@ -222,6 +202,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   end
   })
 
+   AddButton(Tab5o, {
+     Name = "Vxeze Hop (Down)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
+  end
+  })
 
     AddButton(Tab6o, {
      Name = "ThunderZ Aim (Key)",
@@ -258,9 +244,25 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   end
   })
 
+   AddButton(Tab5o, {
+     Name = "Rare Boss Hop (Down)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
+  end
+  })
+
    AddButton(Tab8o, {
      Name = "Banana Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })
+
+
+
+   AddButton(Tab7o, {
+     Name = "Teddy Hop (Down)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end
   })

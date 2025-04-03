@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "XDM 4.0 --- All In One",
+         Title = "XDM 4.0 -- All In One",
          Animation = "(-Main Exploition-)"
          },
         Key = {
@@ -53,7 +53,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
   end
   })
 
-  
   AddButton(Tab1o, {
      Name = "Astral V2",
     Callback = function()
@@ -258,7 +257,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
   end
   })
-
 
    AddButton(Tab8o, {
      Name = "Banana Hub",

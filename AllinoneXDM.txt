@@ -54,9 +54,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   })
 
    AddButton(Tab1o, {
-     Name = "Redz Fake",
+     Name = "Redz Fix",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ShimeKano/redz/refs/heads/main/Source.luau"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()
   end
   })
   

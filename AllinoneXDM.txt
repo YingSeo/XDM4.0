@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "XDM 4.0 - All In One",
-         Animation = "(Domain Exploition)"
+         Animation = "(Updated)"
          },
         Key = {
         KeySystem = false,
@@ -53,13 +53,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
 
-   AddButton(Tab1o, {
-     Name = "Redz Fix",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))()
-  end
-  })
-  
   AddButton(Tab1o, {
      Name = "Astral V2",
     Callback = function()
@@ -76,13 +69,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/
   end
   })
 
-   AddButton(Tab5o, {
-     Name = "Teddy Hop Freemium Pass: (Teddyskibidi)",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-FREMIUM"))()
-  end
-  })
-  
   AddButton(Tab2o, {
      Name = "Fix Lag Deleted 100%",
     Callback = function()
@@ -100,35 +86,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   end
   })
   
-  AddButton(Tab1o, {
-     Name = "W-Azure Hub",
-    Callback = function()
-	  getgenv().Team = "Marines"
-getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
-getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-  end
-  })
-  
   AddButton(Tab3o, {
      Name = "HoHo Hub V4",
     Callback = function()
 	  _G.HohoVersion = "v4"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
-  end
-  })
-  
-  AddButton(Tab3o, {
-     Name = "Kncrypt Hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua"))()
-  end
-  })
-  
-  AddButton(Tab3o, {
-     Name = "BlackStrap Hub",
-    Callback = function()
-	  loadstring(game:HttpGet('https://lua-library.btteam.net/script-auth.txt'))()
   end
   })
   
@@ -168,16 +130,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
   
   AddButton(Tab1o, {
-     Name = "Teddy Hub",
+     Name = "Teddy Hub Premium",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
   end
   })
   
   AddButton(Tab1o, {
-     Name = "Angry Hub",
+     Name = "Buffalo Hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://gist.githubusercontent.com/angry5/ec20347a74aa4e46c71b15b6093eeaf5/raw/Angery.lua"))()
+	  loadstring(game:HttpGet("http://raw.githubusercontent.com/trungdao2k4/redz/refs/heads/main/main.lua"))()
   end
   })
   
@@ -196,23 +159,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
   })
   
   AddButton(Tab1o, {
-     Name = "Rubu V2",
+     Name = "Rubu V5",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv2"))()
-  end
-  })
-
-   AddButton(Tab5o, {
-     Name = "Vxeze Hop (Down)",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
-  end
-  })
-
-    AddButton(Tab6o, {
-     Name = "ThunderZ Aim (Key)",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv5.lua"))()
   end
   })
 
@@ -266,3 +215,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end
   })
+
